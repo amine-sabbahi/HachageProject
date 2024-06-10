@@ -31,6 +31,8 @@ The main objectives of this project are:
 ## Proposed Interface
 The application interface is designed to be a central dashboard that provides an overview of the application. The interface includes buttons for quick access to different sections of the application, allowing users to explore the functionalities of various hashing algorithms easily. Each algorithm has a dedicated interface for its implementation and functionality.
 
+[Main-interface](src/Main-interface.png)
+
 ## Hashing Techniques
 ### Linear Probing
 Linear probing is a collision resolution technique that searches linearly in the hash table to find the next available slot.
