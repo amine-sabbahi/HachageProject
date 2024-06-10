@@ -14,8 +14,9 @@ This project involves the implementation of various hashing and indexing algorit
   - [Separate Chaining](#separate-chaining)
   - [B+ Tree](#b-tree)
 - [Technologies and Development Tools](#technologies-and-development-tools)
+- [Usage](#usage)
 - [Conclusion](#conclusion)
-- [Bibliography](#bibliography)
+- [References](#References)
 
 ## Introduction
 This project aims to implement various hashing and indexing algorithms within a graphical user interface using the Customtkinter library and the Python programming language. These data structures and algorithms are essential in efficient data management and form the backbone of many modern computing applications.
@@ -89,10 +90,24 @@ B+ trees are balanced tree structures used primarily in database systems for eff
 - **Git**: A distributed version control system.
 - **GitHub**: A platform for hosting and collaborating on Git repositories.
 
+## Usage
+
+To install and run this project locally, follow the steps below:
+
+1. Clone the repository:
+ ```bash
+ git clone https://github.com/amine-sabbahi/HachageProject.git
+ cd HachageProject
+ ```
+2. Start the app.py file:
+ ```
+ python app.py
+ ```
+
 ## Conclusion
 The development of this hashing application has been an exciting and rewarding endeavor, providing an in-depth exploration of various hashing algorithms and techniques for data organization. This project not only demonstrates our understanding of fundamental concepts but also serves as a valuable resource for the data security and computer science community.
 
-## Bibliography
+## References
 1. [Hashing Linear Probing - Baeldung](https://www.baeldung.com/cs/hashing-linear-probing)
 2. [Open Addressing Collision Handling - GeeksforGeeks](https://www.geeksforgeeks.org/open-addressing-collision-handling-technique-in-hashing)
 3. [Closed Hash Visualization - USFCA](https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html)
