@@ -37,20 +37,50 @@ The application interface is designed to be a central dashboard that provides an
 ### Linear Probing
 Linear probing is a collision resolution technique that searches linearly in the hash table to find the next available slot.
 
+![Linear-Probing](src/linear-probing.png)
+#### Linear Probing Example
+
+![Linear-Probing](src/linear-probing.png)
+
 ### Quadratic Probing
 Quadratic probing uses a quadratic function to determine the next slots to check for inserting or finding an element, reducing clustering compared to linear probing.
+
+![Quadratic-Probing](src/quadratic.png)
+#### Quadratic Probing Example
+
+![Quadratic-Probing](src/quadratic-result.png)
 
 ### Double Hashing
 Double hashing employs a second hash function to calculate additional probe sequences, providing a better distribution and reducing clustering.
 
+![Double Hashing](src/double-haching.png)
+#### Double Hashing Example
+
+![Double Hashing](src/double-example.png)
+
 ### Internal Chaining
 Internal chaining involves using links between records to navigate through data efficiently, using primary and foreign keys to establish relationships.
+
+![Internal Chaining](src/Internal-Chaining.png)
+#### Internal Chaining Example
+
+![Internal Chaining](src/Internal-example.png)
 
 ### Separate Chaining
 Separate chaining stores elements with the same hash value in linked lists, efficiently managing collisions by storing elements in separate lists.
 
+![Separate Chaining](src/separate-Chaining.png)
+#### Separate Chaining Example
+
+![Separate Chaining](src/sep-chain-example.png)
+
 ### B+ Tree
 B+ trees are balanced tree structures used primarily in database systems for efficient data organization and storage.
+
+![B+ Tree](src/B-plus-tree.png)
+#### B+ Tree Example
+
+![B+ Tree](src/b-tree-example.png)
 
 ## Technologies and Development Tools
 - **Python**: A high-level programming language known for its readability and versatility.
