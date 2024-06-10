@@ -61,15 +61,15 @@ Double hashing employs a second hash function to calculate additional probe sequ
 ### Internal Chaining
 Internal chaining involves using links between records to navigate through data efficiently, using primary and foreign keys to establish relationships.
 
-![Internal Chaining](src/Internal-Chaining.png)
+![Internal Chaining](src/internal-Chaining.png)
 #### Internal Chaining Example
 
-![Internal Chaining](src/Internal-example.png)
+![Internal Chaining](src/internal-example.png)
 
 ### Separate Chaining
 Separate chaining stores elements with the same hash value in linked lists, efficiently managing collisions by storing elements in separate lists.
 
-![Separate Chaining](src/separate-Chaining.png)
+![Separate Chaining](src/Separate-Chaining.png)
 #### Separate Chaining Example
 
 ![Separate Chaining](src/sep-chain-example.png)
